@@ -1,0 +1,27 @@
+{
+    "credentials": {
+        "tenantName": "Hellofreshgotest.onmicrosoft.com",
+        "clientID": "8dedadcf-ed9d-4e5d-b8ef-8b09c32599b2"
+    },
+    "policies": {
+        "policyName": "B2C_1_SignUpSignIn"
+    },
+    "metadata": {
+        "b2cDomain": "Hellofreshgotest.b2clogin.com",
+        "authority": "login.microsoftonline.com",
+        "discovery": ".well-known/openid-configuration",
+        "version": "v2.0"
+    },
+    "settings": {
+        "isB2C": true,
+        "validateIssuer": false,
+        "passReqToCallback": false,
+        "loggingLevel": "info"
+    },
+    "protectedRoutes": {
+        "hello": {
+            "endpoint": "/hello",
+            "scopes": ["read"]
+        }
+    }
+}
